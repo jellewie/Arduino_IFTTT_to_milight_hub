@@ -6,6 +6,7 @@ hub: [esp8266_milight_hub](https://github.com/sidoh/esp8266_milight_hub)
 # What you need
 [IFTTTMaker](https://github.com/witnessmenow/arduino-ifttt-maker)
 [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
+[ESP32](https://dl.espressif.com/dl/package_esp32_index.json)
 
 # How it works
 Set-up your wifi/connection stuff (I use my own [Arduino-WiFiManager](https://github.com/jellewie/Arduino-WiFiManager) for it 
