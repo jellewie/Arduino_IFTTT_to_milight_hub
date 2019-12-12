@@ -3,11 +3,11 @@
 
 hub: [esp8266_milight_hub](https://github.com/sidoh/esp8266_milight_hub)
 
-#What you need
+# What you need
 [IFTTTMaker](https://github.com/witnessmenow/arduino-ifttt-maker)
 [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
 
-#setup
+# How it works
 Set-up your wifi/connection stuff (I use my own [Arduino-WiFiManager](https://github.com/jellewie/Arduino-WiFiManager) for it 
 fillin the "KEYIFTTT" with out IFTTT key
 fillin the "HubMiLight" with your esp8266_milight_hub ip (must be reachable from the ESP ofc
