@@ -10,9 +10,9 @@ hub: [esp8266_milight_hub](https://github.com/sidoh/esp8266_milight_hub)
 # How it works
 Set-up your wifi/connection stuff (I use my own [Arduino-WiFiManager](https://github.com/jellewie/Arduino-WiFiManager) for it 
 
-fillin the "KEYIFTTT" with out IFTTT key
+fillin the "KEYIFTTT" with the IFTTT key
 
-fillin the "HubMiLight" with your esp8266_milight_hub ip (must be reachable from the ESP ofc
+fillin the "HubMiLight" with your esp8266_milight_hub ip (Sitenote: must be reachable for the ESP ofc.)
 
 Call "IFTTT_setup()" to start, this will set the webser stuff up.
 
