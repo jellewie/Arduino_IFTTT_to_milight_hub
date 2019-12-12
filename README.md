@@ -8,11 +8,12 @@ hub: [esp8266_milight_hub](https://github.com/sidoh/esp8266_milight_hub)
 [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
 
 # How it works
-Set-up your wifi/connection stuff (I use my own [Arduino-WiFiManager](https://github.com/jellewie/Arduino-WiFiManager) for it 
-fillin the "KEYIFTTT" with out IFTTT key
-fillin the "HubMiLight" with your esp8266_milight_hub ip (must be reachable from the ESP ofc
+-Set-up your wifi/connection stuff (I use my own [Arduino-WiFiManager](https://github.com/jellewie/Arduino-WiFiManager) for it 
+-fillin the "KEYIFTTT" with out IFTTT key
+-fillin the "HubMiLight" with your esp8266_milight_hub ip (must be reachable from the ESP ofc
 
-Call "IFTTT_setup()" to start, this will set the webser stuff up.
-Call "IFTTT_loop()" to handle the IFTTT web trafic
+-Call "IFTTT_setup()" to start, this will set the webser stuff up.
+-Call "IFTTT_loop()" to handle the IFTTT web trafic
+
 
 If you want the outside (no not only local) to be able to acces this ESP. you NEED to open a port in your router, and port forward that to the <IESPIP>(with an optional gate of 80)!
