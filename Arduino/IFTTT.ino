@@ -43,7 +43,7 @@ void IFTTT_handle_Set() {
   //URL argument names like "<IP>/set?<PreFixDeviceID>=<value>[&<PreFixSomething2>=<value>]" where [] is optional stuff.
   //Example                 "192.168.1.128/set?light=0xF241&on=true"
   String IFTTT_ReturnMSG;
-  byte IFTTT_ReturnStatus = 422;  //set this error as default
+  int IFTTT_ReturnStatus = 422;  //set this error as default
   String IFTTT_device_id, IFTTT_Red, IFTTT_Green, IFTTT_Blue, IFTTT_TurnOn, IFTTT_brightness, IFTTT_color_temp, IFTTT_start_value, IFTTT_end_value, IFTTT_duration, IFTTT_period, IFTTT_remote_type, IFTTT_group_id;  //emthy=dont change
   for (int i = 0; i < IFTTT_server.args(); i++) {
     String IFTTT_ArguName = IFTTT_server.argName(i);
