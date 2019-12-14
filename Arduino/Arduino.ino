@@ -1,5 +1,5 @@
 /*
-  Program written by JelleWho, based on DIYHUE ESP8266
+  Program written by JelleWho
   Board: https://dl.espressif.com/dl/package_esp32_index.json
 */
 #include <WiFi.h>
